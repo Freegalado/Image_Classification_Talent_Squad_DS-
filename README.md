@@ -12,9 +12,11 @@ This project was done in a Jupyter Notebook but the model training was done from
 
 if you want to open it in locally don't forget to have installed:
 
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/-Seaborn-blue?style=for-the-badge&logo=seaborn) 
 
 
 
@@ -23,6 +25,7 @@ if you want to open it in locally don't forget to have installed:
 
 - [Description](#description)
 - [Decision-making process](#decision-making-process)
+    - [Data Pipeline](#data-pipeline)
 
 
 
@@ -62,16 +65,31 @@ called convolution. This new operation is the one that will allow us to find pat
 
   #### [top](#table-of-contents)
 --------
+#### Data Pipeline
+
+  ![Data-pipeline](https://user-images.githubusercontent.com/91080406/191982034-bd65086b-8e39-4e3c-a59d-986e32251e3c.png)
 
 
+To perform the task, different activities were carried out in 4 stages:
+
+- In the first stage, the libraries needed to perform the different tasks are loaded, the images (files) are loaded and an exploratory analysis will be performed on these, then they will be transformed to data suitable for the task in this case a matrix, finally some kind of pre-processing will be performed.
+
+- In the second stage, different CNN models are built, a pre-trained model is loaded to perform a model with learning transfer, the error function to be used in both types of models is defined.
+
+- In the third stage, the different models are trained and evaluated to understand their behavior.
+
+- In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify the images.
 
 
---------
-![Diagrama sin título-Página-1 drawio-2](https://user-images.githubusercontent.com/91080406/191446222-c717a553-9b0b-47d8-a413-18b2321b33ec.png)
-
+#### [top](#table-of-contents)
 ---------
+### Final Thoughts
 
+It is my first time to make an image classification model, which helped me to learn a lot about the subject, there are processes to improve. It is the first time that I use the Google Colab platform, I usually work on my laptop, which already needs a replacement, but this time I had to look for another alternative to carry out the project. The models are not complex models but the difference in training time between local and cloud-based service is noticeable.
 
+This is my fisrt time to participate the [NUWE](https://nuwe.io/dev/challenges) platform and I think I will become a regular user of its mini-projects (challenges) in order to keep improving my skills.
+
+#### [top](#table-of-contents)
  
 
 [^1]: In order to offer computational resources at no cost, Colab needs to retain the flexibility to adjust usage limits and hardware availability at any time 
