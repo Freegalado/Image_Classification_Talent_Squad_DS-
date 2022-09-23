@@ -4,6 +4,16 @@
 # Talent Squad - Data Science II
 --------
 
+## Table of Contents
+
+- [Quick Start](#quick-start)
+- [Description of the Task](#description-of-the-task)
+- [Decision-making process](#decision-making-process)
+    - [Data Pipeline](#data-pipeline)
+
+- [Final Thoughts](#final-thoughts)
+
+
 ## Quick Start
 
 This project was done in a Jupyter Notebook but the model training was done from google Colab since they offer free GPUs and TPUs[^1] in case you want to save some time :wink:.
@@ -18,19 +28,18 @@ if you want to open it in locally don't forget to have installed:
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/-Seaborn-blue?style=for-the-badge&logo=seaborn) 
 
+Inside the repository you will find:
 
+    - The Jupyter notebook (.ipynb)
+    - A folder with images for each sport.
+    - CSV file with the result of the classification
 
+#### [top](#table-of-contents)
 --------
-## Table of Contents
-
-- [Description](#description)
-- [Decision-making process](#decision-making-process)
-    - [Data Pipeline](#data-pipeline)
 
 
 
-
-### Description 
+### Description of the task
 
 The project consists of classifying the different images by the type of sport to which they correspond, with the following: baseball, cricket and football.
 
@@ -49,7 +58,11 @@ The labels we will have for each group of images will be in alphabetical order, 
 
     2. Calculate the macro F1-score. 
 
-    
+
+
+
+
+
   #### [top](#table-of-contents)
 --------
 
