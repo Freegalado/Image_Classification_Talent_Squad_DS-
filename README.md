@@ -6,6 +6,7 @@
 
 ## Table of Contents
 
+- [Repository Content](#repository-content)
 - [Quick Start](#quick-start)
 - [Description of the Task](#description-of-the-task)
 - [Decision-making process](#decision-making-process)
@@ -14,6 +15,15 @@
 - [Final Thoughts](#final-thoughts)
 
 
+
+## Repository Content 
+
+    - Predictions in json and cvs
+    - Jupyter Notebook with the script
+    - app.py with script
+
+#### [top](#table-of-contents)
+--------
 ## Quick Start
 
 This project was done in a Jupyter Notebook but the model training was done from google Colab since they offer free GPUs and TPUs[^1] in case you want to save some time :wink:.
