@@ -51,7 +51,7 @@ Inside the repository you will find:
 
 
 
-### Description of the task
+## Description of the task
 
 The project consists of classifying the different images by the type of sport to which they correspond, with the following: baseball, cricket and football.
 
@@ -78,7 +78,7 @@ The labels we will have for each group of images will be in alphabetical order, 
   #### [top](#table-of-contents)
 --------
 
- ### Decision-making process
+ ## Decision-making process
   
 
 We have a classification problem so it is appropriate to use an Artificial neural networks (ANNs) with this we can detect patterns and use them to solve problems where we have to detect patterns. ANNs are composed of a layer of nodes, which contains an input layer, one more hidden layers and an output layer, each node is connected to another letting information pass to a greater or lesser extent depending on the final prediction, the values that indicate the level at which they let the information pass are called weights. 
@@ -108,7 +108,7 @@ To perform the task, different activities were carried out in 4 stages:
 
 #### [top](#table-of-contents)
 ---------
-### Final Thoughts
+## Final Thoughts
 
 It is my first time to make an image classification model, which helped me to learn a lot about the subject, there are processes to improve. It is the first time that I use the Google Colab platform, I usually work on my laptop, which already needs a replacement, but this time I had to look for another alternative to carry out the project. The models are not complex models but the difference in training time between local and cloud-based service is noticeable.
 
